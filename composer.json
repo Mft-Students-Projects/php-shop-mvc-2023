@@ -1,0 +1,15 @@
+{
+    "name": "mft/shop",
+    "description": "Mft Mvc Shop",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "gumlet/php-image-resize": "^2.0",
+        "kavenegar/php": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mft\\Shop\\": "src/"
+        }
+    }
+}

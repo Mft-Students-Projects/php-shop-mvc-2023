@@ -1,0 +1,22 @@
+[14-Apr-2023 11:37:04 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/nikfoll1/public_html/config/db.php on line 4
+[14-Apr-2023 11:37:04 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/nikfoll1/public_html/config/db.php on line 6
+[14-Apr-2023 11:37:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /home/nikfoll1/public_html/model/BaseModel.php:117
+Stack trace:
+#0 /home/nikfoll1/public_html/global.php(4): BaseModel->where('`parent_id` IS ...')
+#1 /home/nikfoll1/public_html/index.php(8): require_once('/home/nikfoll1/...')
+#2 {main}
+  thrown in /home/nikfoll1/public_html/model/BaseModel.php on line 117
+[14-Apr-2023 11:42:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /home/nikfoll1/public_html/model/BaseModel.php:117
+Stack trace:
+#0 /home/nikfoll1/public_html/global.php(4): BaseModel->where('`parent_id` IS ...')
+#1 /home/nikfoll1/public_html/index.php(8): require_once('/home/nikfoll1/...')
+#2 {main}
+  thrown in /home/nikfoll1/public_html/model/BaseModel.php on line 117
+[14-Apr-2023 11:45:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_contains() in /home/nikfoll1/public_html/model/BaseModel.php:117
+Stack trace:
+#0 /home/nikfoll1/public_html/global.php(4): BaseModel->where('`parent_id` IS ...')
+#1 /home/nikfoll1/public_html/index.php(8): require_once('/home/nikfoll1/...')
+#2 {main}
+  thrown in /home/nikfoll1/public_html/model/BaseModel.php on line 117
+[14-Apr-2023 12:02:19 UTC] PHP Warning:  Undefined array key "price" in /home/nikfoll1/public_html/controllers/PaymentController.php on line 44
+[14-Apr-2023 12:21:33 UTC] PHP Warning:  Undefined array key "name" in /home/nikfoll1/public_html/controllers/PaymentController.php on line 77
